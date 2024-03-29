@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/C/",
+        "/C/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "C": {
+            "item": "cactuswood:cactus_planks"
+        }
+    },
+    "result": {
+        "item": "cactuswood:cactus_fence_gate",
+        "count": 1
+    }
+}

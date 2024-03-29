@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "cactuswood:block/cactus_door_bottom",
+    "top": "cactuswood:block/cactus_door_top"
+  }
+}

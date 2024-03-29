@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.phofers.cactuswood.block.ModBlocks;
 import net.phofers.cactuswood.item.ModItemGroups;
 import net.phofers.cactuswood.item.ModItems;
+import net.phofers.cactuswood.util.ModFlammableBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +19,7 @@ public class CactusWood implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModFlammableBlocks.registerFlammableBlocks();
 
 	}
 }

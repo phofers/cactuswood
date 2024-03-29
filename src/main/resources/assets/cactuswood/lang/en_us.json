@@ -2,6 +2,16 @@
   "item.cactuswood.cactus_ribs": "Cactus Ribs",
   "block.cactuswood.cactus_planks": "Cactus Planks",
 
-  "itemgroup.cactuswood.cactus_wood": "Cactus Wood"
+  "itemgroup.cactuswood.cactus_wood": "Cactus Wood",
+
+  "block.cactuswood.cactus_stairs": "Cactus Stairs",
+  "block.cactuswood.cactus_slab": "Cactus Slab",
+  "block.cactuswood.cactus_button": "Cactus Button",
+  "block.cactuswood.cactus_pressure_plate": "Cactus Pressure Plate",
+  "block.cactuswood.cactus_fence": "Cactus Fence",
+  "block.cactuswood.cactus_fence_gate": "Cactus Fence Gate",
+  "block.cactuswood.cactus_door": "Cactus Door",
+  "block.cactuswood.cactus_trapdoor": "Cactus Trapdoor"
+
 
 }

@@ -19,6 +19,14 @@ public class ModItemGroups {
 
                         entries.add(ModItems.CACTUS_RIBS);
                         entries.add(ModBlocks.CACTUS_PLANKS);
+                        entries.add(ModBlocks.CACTUS_STAIRS);
+                        entries.add(ModBlocks.CACTUS_SLAB);
+                        entries.add(ModBlocks.CACTUS_BUTTON);
+                        entries.add(ModBlocks.CACTUS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CACTUS_FENCE);
+                        entries.add(ModBlocks.CACTUS_FENCE_GATE);
+                        // entries.add(ModBlocks.CACTUS_DOOR);
+                        // entries.add(ModBlocks.CACTUS_TRAPDOOR);
 
 
                     }).build());
