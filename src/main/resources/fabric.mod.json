@@ -11,7 +11,7 @@
 		"discord": "phofers",
 		"sources": "https://github.com/phof915/Cactus-Wood"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/cactuswood/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -35,6 +35,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"jei": "*"
 	}
 }
