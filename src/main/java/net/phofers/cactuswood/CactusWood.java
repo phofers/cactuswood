@@ -2,6 +2,7 @@ package net.phofers.cactuswood;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.phofers.cactuswood.block.ModBlocks;
 import net.phofers.cactuswood.item.ModItemGroups;
 import net.phofers.cactuswood.item.ModItems;
 import org.slf4j.Logger;
@@ -16,6 +17,7 @@ public class CactusWood implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

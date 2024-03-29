@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.phofers.cactuswood.CactusWood;
+import net.phofers.cactuswood.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup CACTUS_WOOD_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(CactusWood.MOD_ID, "cactus_wood_group"),
@@ -17,6 +18,7 @@ public class ModItemGroups {
                         entries.add(Items.CACTUS);
 
                         entries.add(ModItems.CACTUS_RIBS);
+                        entries.add(ModBlocks.CACTUS_PLANKS);
 
 
                     }).build());
