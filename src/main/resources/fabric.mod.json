@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cactuswood",
+	"version": "${version}",
+	"name": "Cactus Wood",
+	"description": "Adds cactus wood and leaves.",
+	"authors": [
+		"phofers"
+	],
+	"contact": {
+		"discord": "phofers",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cactuswood/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.phofers.cactuswood.CactusWood"
+		],
+		"client": [
+			"net.phofers.cactuswood.CactusWoodClient"
+		],
+		"fabric-datagen": [
+			"net.phofers.cactuswood.CactusWoodDataGenerator"
+		]
+	},
+	"mixins": [
+		"cactuswood.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
