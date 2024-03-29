@@ -2,6 +2,8 @@ package net.phofers.cactuswood;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.phofers.cactuswood.item.ModItemGroups;
+import net.phofers.cactuswood.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,8 +14,8 @@ public class CactusWood implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 
-
-		LOGGER.info("Hello Fabric world!");
 	}
 }
