@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "cactuswood:cactus_fence",
     "cactuswood:cactus_fence"
   ]
 }

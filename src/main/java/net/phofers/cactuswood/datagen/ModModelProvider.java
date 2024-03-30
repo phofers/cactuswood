@@ -32,9 +32,11 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
         itemModelGenerator.register(ModItems.CACTUS_RIBS, Models.GENERATED);
-
-
         itemModelGenerator.register(ModItems.HANGING_CACTUS_SIGN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.CACTUS_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CACTUS_CHEST_BOAT, Models.GENERATED);
     }
 }

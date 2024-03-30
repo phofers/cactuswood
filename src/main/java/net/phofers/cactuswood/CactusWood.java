@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.phofers.cactuswood.block.ModBlocks;
+import net.phofers.cactuswood.entity.ModBoats;
 import net.phofers.cactuswood.item.ModItemGroups;
 import net.phofers.cactuswood.item.ModItems;
 import net.phofers.cactuswood.util.ModFlammableBlocks;
@@ -23,6 +24,7 @@ public class CactusWood implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModFlammableBlocks.registerFlammableBlocks();
 		ModFuels.registerModFuels();
+		ModBoats.registerBoats();
 
 
 	}

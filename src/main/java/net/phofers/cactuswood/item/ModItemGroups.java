@@ -31,6 +31,9 @@ public class ModItemGroups {
                         entries.add(ModItems.CACTUS_SIGN);
                         entries.add(ModItems.HANGING_CACTUS_SIGN);
 
+                        entries.add(ModItems.CACTUS_BOAT);
+                        entries.add(ModItems.CACTUS_CHEST_BOAT);
+
 
                     }).build());
 

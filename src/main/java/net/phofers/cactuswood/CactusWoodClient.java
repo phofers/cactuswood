@@ -1,5 +1,6 @@
 package net.phofers.cactuswood;
 
+import com.terraformersmc.terraform.boat.api.client.TerraformBoatClientHelper;
 import com.terraformersmc.terraform.sign.SpriteIdentifierRegistry;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -7,6 +8,7 @@ import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.TexturedRenderLayers;
 import net.minecraft.client.util.SpriteIdentifier;
 import net.phofers.cactuswood.block.ModBlocks;
+import net.phofers.cactuswood.entity.ModBoats;
 
 public class CactusWoodClient implements ClientModInitializer {
     @Override
@@ -16,5 +18,7 @@ public class CactusWoodClient implements ClientModInitializer {
 
         SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE, ModBlocks.CACTUS_SIGN_TEXTURE));
         SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE, ModBlocks.CACTUS_HANGING_SIGN_TEXTURE));
+
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.CACTUS_BOAT_ID,false);
     }
 }

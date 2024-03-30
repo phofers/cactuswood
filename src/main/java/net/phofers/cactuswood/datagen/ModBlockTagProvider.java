@@ -50,6 +50,23 @@ public class    ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALL_HANGING_SIGNS)
                 .add(ModBlocks.WALL_HANGING_CACTUS_SIGN);
 
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.CACTUS_STAIRS);
+        getOrCreateTagBuilder(BlockTags.SLABS)
+                .add(ModBlocks.CACTUS_SLAB);
+        getOrCreateTagBuilder(BlockTags.BUTTONS)
+                .add(ModBlocks.CACTUS_BUTTON);
+        getOrCreateTagBuilder(BlockTags.PRESSURE_PLATES)
+                .add(ModBlocks.CACTUS_PRESSURE_PLATE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.CACTUS_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.CACTUS_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.DOORS)
+                .add(ModBlocks.CACTUS_DOOR);
+        getOrCreateTagBuilder(BlockTags.TRAPDOORS)
+                .add(ModBlocks.CACTUS_TRAPDOOR);
+
 
     }
 }
