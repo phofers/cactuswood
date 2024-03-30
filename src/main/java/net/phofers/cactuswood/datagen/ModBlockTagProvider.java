@@ -67,6 +67,9 @@ public class    ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.TRAPDOORS)
                 .add(ModBlocks.CACTUS_TRAPDOOR);
 
+        getOrCreateTagBuilder(BlockTags.WOODEN_DOORS)
+                .add(ModBlocks.CACTUS_DOOR);
+
 
     }
 }
