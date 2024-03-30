@@ -27,7 +27,7 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN)));
 
     public static final Block CACTUS_BUTTON = registerBlock("cactus_button",
-            new ButtonBlock(BlockSetType.OAK, 15, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN).collidable(false)));
+            new ButtonBlock(BlockSetType.OAK, 30, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN).collidable(false)));
     public static final Block CACTUS_PRESSURE_PLATE = registerBlock("cactus_pressure_plate",
             new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN)));
 
