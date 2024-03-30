@@ -49,9 +49,9 @@ public class ModBlocks {
     public static final Block WALL_CACTUS_SIGN = Registry.register(Registries.BLOCK, new Identifier(CactusWood.MOD_ID, "cactus_wall_sign"),
             new TerraformWallSignBlock(CACTUS_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN).dropsLike(ModBlocks.STANDING_CACTUS_SIGN)));
     public static final Block HANGING_CACTUS_SIGN = Registry.register(Registries.BLOCK, new Identifier(CactusWood.MOD_ID, "cactus_hanging_sign"),
-            new TerraformHangingSignBlock(CACTUS_HANGING_SIGN_TEXTURE, CACTUS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN)));
+            new TerraformHangingSignBlock(CACTUS_HANGING_SIGN_TEXTURE, CACTUS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN).noBlockBreakParticles()));
     public static final Block WALL_HANGING_CACTUS_SIGN = Registry.register(Registries.BLOCK, new Identifier(CactusWood.MOD_ID, "cactus_wall_hanging_sign"),
-            new TerraformWallHangingSignBlock(CACTUS_HANGING_SIGN_TEXTURE, CACTUS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN).noBlockBreakParticles()));
+            new TerraformWallHangingSignBlock(CACTUS_HANGING_SIGN_TEXTURE, CACTUS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN).dropsLike(ModBlocks.HANGING_CACTUS_SIGN).noBlockBreakParticles()));
 
     public static final BlockFamily CACTUS_FAMILY = BlockFamilies.register(ModBlocks.CACTUS_PLANKS)
             .sign(ModBlocks.STANDING_CACTUS_SIGN, ModBlocks.WALL_CACTUS_SIGN)
