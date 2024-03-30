@@ -36,7 +36,7 @@ public class ModBlocks {
     public static final Block CACTUS_FENCE_GATE = registerBlock("cactus_fence_gate",
             new FenceGateBlock(WoodType.ACACIA, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN)));
     public static final Block CACTUS_DOOR = registerBlock("cactus_door",
-            new DoorBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().mapColor(MapColor.PALE_GREEN)));
+            new DoorBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_DOOR).nonOpaque().mapColor(MapColor.PALE_GREEN)));
     public static final Block CACTUS_TRAPDOOR = registerBlock("cactus_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().mapColor(MapColor.PALE_GREEN)));
 
@@ -51,7 +51,7 @@ public class ModBlocks {
     public static final Block HANGING_CACTUS_SIGN = Registry.register(Registries.BLOCK, new Identifier(CactusWood.MOD_ID, "cactus_hanging_sign"),
             new TerraformHangingSignBlock(CACTUS_HANGING_SIGN_TEXTURE, CACTUS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN)));
     public static final Block WALL_HANGING_CACTUS_SIGN = Registry.register(Registries.BLOCK, new Identifier(CactusWood.MOD_ID, "cactus_wall_hanging_sign"),
-            new TerraformWallHangingSignBlock(CACTUS_HANGING_SIGN_TEXTURE, CACTUS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN)));
+            new TerraformWallHangingSignBlock(CACTUS_HANGING_SIGN_TEXTURE, CACTUS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN).noBlockBreakParticles()));
 
     public static final BlockFamily CACTUS_FAMILY = BlockFamilies.register(ModBlocks.CACTUS_PLANKS)
             .sign(ModBlocks.STANDING_CACTUS_SIGN, ModBlocks.WALL_CACTUS_SIGN)
