@@ -14,7 +14,7 @@ import net.phofers.cactuswood.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup CACTUS_WOOD_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(CactusWood.MOD_ID, "cactus_wood_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.cactuswood.cactus_wood"))
-                    .icon(() -> new ItemStack(Items.CACTUS)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.CACTUS_PLANKS)).entries((displayContext, entries) -> {
                         entries.add(Items.CACTUS);
 
                         entries.add(ModItems.CACTUS_RIBS);
