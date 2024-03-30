@@ -25,8 +25,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CACTUS_PRESSURE_PLATE);
                         entries.add(ModBlocks.CACTUS_FENCE);
                         entries.add(ModBlocks.CACTUS_FENCE_GATE);
-                        // entries.add(ModBlocks.CACTUS_DOOR);
-                        // entries.add(ModBlocks.CACTUS_TRAPDOOR);
+                        entries.add(ModBlocks.CACTUS_DOOR);
+                        entries.add(ModBlocks.CACTUS_TRAPDOOR);
 
                         entries.add(ModItems.CACTUS_SIGN);
                         entries.add(ModItems.HANGING_CACTUS_SIGN);

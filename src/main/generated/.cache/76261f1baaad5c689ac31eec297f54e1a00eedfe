@@ -1,4 +1,4 @@
-// 1.20.4	2024-03-30T12:08:12.1950697	Cactus Wood/Tags for minecraft:block
+// 1.20.4	2024-03-30T13:09:10.2018757	Cactus Wood/Tags for minecraft:block
 34a90ad45cb2511c573fbd98e7df722a6a939032 data\minecraft\tags\blocks\slabs.json
 ad30ca7a475704c56b1fb2e02cb8e98edd016487 data\minecraft\tags\blocks\doors.json
 34a90ad45cb2511c573fbd98e7df722a6a939032 data\minecraft\tags\blocks\wooden_slabs.json
@@ -15,4 +15,5 @@ a4804b859441c4a08b421cd304765b69e3514b75 data\minecraft\tags\blocks\trapdoors.js
 4747a242e31b220e1aa5b19beda29a5464e8fd23 data\minecraft\tags\blocks\wooden_buttons.json
 605d115bb3f86dbdc4f91140731ebb656b86df9b data\minecraft\tags\blocks\wooden_pressure_plates.json
 ebd763225939bda3caf820223f5de989fae693eb data\minecraft\tags\blocks\standing_signs.json
+a4804b859441c4a08b421cd304765b69e3514b75 data\minecraft\tags\blocks\wooden_trapdoors.json
 605d115bb3f86dbdc4f91140731ebb656b86df9b data\minecraft\tags\blocks\pressure_plates.json
