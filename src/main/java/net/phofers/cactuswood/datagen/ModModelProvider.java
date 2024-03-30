@@ -16,6 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         BlockStateModelGenerator.BlockTexturePool cactusPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CACTUS_PLANKS);
+        cactusPool.family(ModBlocks.CACTUS_FAMILY);
 
 
         cactusPool.stairs(ModBlocks.CACTUS_STAIRS);
@@ -32,5 +33,8 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CACTUS_RIBS, Models.GENERATED);
+
+
+        itemModelGenerator.register(ModItems.HANGING_CACTUS_SIGN, Models.GENERATED);
     }
 }

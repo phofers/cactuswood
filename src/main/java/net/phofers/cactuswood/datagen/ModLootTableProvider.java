@@ -20,6 +20,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CACTUS_FENCE);
         addDrop(ModBlocks.CACTUS_TRAPDOOR);
 
+        addDrop(ModBlocks.STANDING_CACTUS_SIGN);
+        addDrop(ModBlocks.WALL_CACTUS_SIGN);
+        addDrop(ModBlocks.HANGING_CACTUS_SIGN);
+        addDrop(ModBlocks.WALL_HANGING_CACTUS_SIGN);
+
 
 
         addDrop(ModBlocks.CACTUS_DOOR, doorDrops(ModBlocks.CACTUS_DOOR));

@@ -28,6 +28,9 @@ public class ModItemGroups {
                         // entries.add(ModBlocks.CACTUS_DOOR);
                         // entries.add(ModBlocks.CACTUS_TRAPDOOR);
 
+                        entries.add(ModItems.CACTUS_SIGN);
+                        entries.add(ModItems.HANGING_CACTUS_SIGN);
+
 
                     }).build());
 

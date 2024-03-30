@@ -40,5 +40,16 @@ public class    ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.WOODEN_BUTTONS)
                 .add(ModBlocks.CACTUS_BUTTON);
+
+        getOrCreateTagBuilder(BlockTags.WALL_SIGNS)
+                .add(ModBlocks.WALL_CACTUS_SIGN);
+
+        getOrCreateTagBuilder(BlockTags.STANDING_SIGNS)
+                .add(ModBlocks.STANDING_CACTUS_SIGN);
+
+        getOrCreateTagBuilder(BlockTags.WALL_HANGING_SIGNS)
+                .add(ModBlocks.WALL_HANGING_CACTUS_SIGN);
+
+
     }
 }

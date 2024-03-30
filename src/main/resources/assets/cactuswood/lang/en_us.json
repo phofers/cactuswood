@@ -11,7 +11,13 @@
   "block.cactuswood.cactus_fence": "Cactus Fence",
   "block.cactuswood.cactus_fence_gate": "Cactus Fence Gate",
   "block.cactuswood.cactus_door": "Cactus Door",
-  "block.cactuswood.cactus_trapdoor": "Cactus Trapdoor"
+  "block.cactuswood.cactus_trapdoor": "Cactus Trapdoor",
+
+  "block.cactuswood.cactus_standing_sign": "Cactus Standing Sign",
+  "block.cactuswood.cactus_wall_sign": "Cactus Wall Sign",
+
+  "block.cactuswood.cactus_hanging_sign": "Cactus Hanging Sign",
+  "block.cactuswood.cactus_wall_hanging_sign": "Cactus Wall Hanging Sign"
 
 
 }
