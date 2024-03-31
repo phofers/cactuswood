@@ -51,9 +51,11 @@ public class    ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WALL_HANGING_CACTUS_SIGN);
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
-                .add(ModBlocks.CACTUS_STAIRS);
+                .add(ModBlocks.CACTUS_STAIRS)
+                .add(ModBlocks.CACTUS_TILE_STAIRS);
         getOrCreateTagBuilder(BlockTags.SLABS)
-                .add(ModBlocks.CACTUS_SLAB);
+                .add(ModBlocks.CACTUS_SLAB)
+                .add(ModBlocks.CACTUS_TILE_SLAB);
         getOrCreateTagBuilder(BlockTags.BUTTONS)
                 .add(ModBlocks.CACTUS_BUTTON);
         getOrCreateTagBuilder(BlockTags.PRESSURE_PLATES)
@@ -74,6 +76,11 @@ public class    ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.PLANKS)
                 .add(ModBlocks.CACTUS_PLANKS);
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.CACTUS_TILE)
+                .add(ModBlocks.CACTUS_TILE_SLAB)
+                .add(ModBlocks.CACTUS_TILE_STAIRS);
 
 
     }

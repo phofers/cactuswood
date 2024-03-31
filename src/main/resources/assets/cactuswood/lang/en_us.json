@@ -17,6 +17,10 @@
   "block.cactuswood.cactus_hanging_sign": "Cactus Hanging Sign",
 
   "item.cactuswood.cactus_boat": "Cactus Boat",
-  "item.cactuswood.cactus_chest_boat": "Cactus Boat with Chest"
+  "item.cactuswood.cactus_chest_boat": "Cactus Boat with Chest",
+
+  "block.cactuswood.cactus_tile": "Cactus Tile",
+  "block.cactuswood.cactus_tile_slab": "Cactus Tile Slab",
+  "block.cactuswood.cactus_tile_stairs": "Cactus Tile Stairs"
 
 }

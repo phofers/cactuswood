@@ -19,6 +19,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CACTUS_FENCE);
         addDrop(ModBlocks.CACTUS_TRAPDOOR);
 
+
+
         addDrop(ModBlocks.STANDING_CACTUS_SIGN);
         addDrop(ModBlocks.WALL_CACTUS_SIGN);
         addDrop(ModBlocks.HANGING_CACTUS_SIGN);
@@ -28,5 +30,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.CACTUS_DOOR, doorDrops(ModBlocks.CACTUS_DOOR));
         addDrop(ModBlocks.CACTUS_SLAB, slabDrops(ModBlocks.CACTUS_SLAB));
+
+        // Cactus tile stuff
+        addDrop(ModBlocks.CACTUS_TILE_SLAB, slabDrops(ModBlocks.CACTUS_TILE_SLAB));
+        addDrop(ModBlocks.CACTUS_TILE);
+        addDrop(ModBlocks.CACTUS_TILE_STAIRS);
+
     }
 }

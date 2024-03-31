@@ -42,9 +42,10 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
             content.addAfter(Items.BAMBOO_BUTTON, ModBlocks.CACTUS_PLANKS);
-            content.addAfter(ModBlocks.CACTUS_PLANKS, ModBlocks.CACTUS_STAIRS);
-            content.addAfter(ModBlocks.CACTUS_STAIRS, ModBlocks.CACTUS_SLAB);
-            content.addAfter(ModBlocks.CACTUS_SLAB, ModBlocks.CACTUS_FENCE);
+            content.addAfter(ModBlocks.CACTUS_PLANKS, ModBlocks.CACTUS_TILE);
+            content.addAfter(ModBlocks.CACTUS_TILE, ModBlocks.CACTUS_STAIRS);
+            content.addAfter(ModBlocks.CACTUS_TILE_STAIRS, ModBlocks.CACTUS_SLAB);
+            content.addAfter(ModBlocks.CACTUS_TILE_SLAB, ModBlocks.CACTUS_FENCE);
             content.addAfter(ModBlocks.CACTUS_FENCE, ModBlocks.CACTUS_FENCE_GATE);
             content.addAfter(ModBlocks.CACTUS_FENCE_GATE, ModBlocks.CACTUS_DOOR);
             content.addAfter(ModBlocks.CACTUS_DOOR, ModBlocks.CACTUS_TRAPDOOR);

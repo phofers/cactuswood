@@ -17,6 +17,10 @@
   "block.cactuswood.cactus_hanging_sign": "uɓᴉS ɓuᴉɓuɐH snʇɔɐƆ",
 
   "item.cactuswood.cactus_boat": "ʇɐoᗺ snʇɔɐƆ",
-  "item.cactuswood.cactus_chest_boat": "ʇsǝɥƆ ɥʇᴉʍ ʇɐoᗺ snʇɔɐƆ"
+  "item.cactuswood.cactus_chest_boat": "ʇsǝɥƆ ɥʇᴉʍ ʇɐoᗺ snʇɔɐƆ",
+
+  "block.cactuswood.cactus_tile": "ǝlᴉꞱ snʇɔɐƆ",
+  "block.cactuswood.cactus_tile_slab": "qɐlS ǝlᴉꞱ snʇɔɐƆ",
+  "block.cactuswood.cactus_tile_stairs": "sɹᴉɐʇS ǝlᴉꞱ snʇɔɐƆ"
 
 }

@@ -17,6 +17,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.CACTUS_PLANKS)).entries((displayContext, entries) -> {
 
                         /*
+                        OLD ITEM GROUP, not sure why this is still here.
+
                         entries.add(Items.CACTUS);
 
                         entries.add(ModItems.CACTUS_RIBS);
@@ -37,9 +39,14 @@ public class ModItemGroups {
                         entries.add(ModItems.CACTUS_CHEST_BOAT);
                         */
 
+
+                        // NEW ITEM GROUP, very important, don't you dare remove
                         entries.add(ModBlocks.CACTUS_PLANKS);
+                        entries.add(ModBlocks.CACTUS_TILE);
                         entries.add(ModBlocks.CACTUS_STAIRS);
+                        entries.add(ModBlocks.CACTUS_TILE_STAIRS);
                         entries.add(ModBlocks.CACTUS_SLAB);
+                        entries.add(ModBlocks.CACTUS_TILE_SLAB);
                         entries.add(ModBlocks.CACTUS_FENCE);
                         entries.add(ModBlocks.CACTUS_FENCE_GATE);
                         entries.add(ModBlocks.CACTUS_DOOR);

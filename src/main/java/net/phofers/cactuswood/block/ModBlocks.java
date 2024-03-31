@@ -53,6 +53,14 @@ public class ModBlocks {
     public static final Block WALL_HANGING_CACTUS_SIGN = Registry.register(Registries.BLOCK, new Identifier(CactusWood.MOD_ID, "cactus_wall_hanging_sign"),
             new TerraformWallHangingSignBlock(CACTUS_HANGING_SIGN_TEXTURE, CACTUS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN).dropsLike(ModBlocks.HANGING_CACTUS_SIGN).noBlockBreakParticles()));
 
+    // Cactus tile stuff
+    public static final Block CACTUS_TILE = registerBlock("cactus_tile",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN)));
+    public static final Block CACTUS_TILE_STAIRS = registerBlock("cactus_tile_stairs",
+            new StairsBlock(ModBlocks.CACTUS_TILE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN)));
+    public static final Block CACTUS_TILE_SLAB = registerBlock("cactus_tile_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN)));
+
     public static final BlockFamily CACTUS_FAMILY = BlockFamilies.register(ModBlocks.CACTUS_PLANKS)
             .sign(ModBlocks.STANDING_CACTUS_SIGN, ModBlocks.WALL_CACTUS_SIGN)
             .group("wooden").unlockCriterionName("has_planks").build();

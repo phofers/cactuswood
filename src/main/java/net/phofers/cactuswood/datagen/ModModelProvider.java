@@ -18,6 +18,11 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool cactusPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CACTUS_PLANKS);
         cactusPool.family(ModBlocks.CACTUS_FAMILY);
 
+        BlockStateModelGenerator.BlockTexturePool cactusTilePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CACTUS_TILE);
+
+        cactusTilePool.stairs(ModBlocks.CACTUS_TILE_STAIRS);
+        cactusTilePool.slab(ModBlocks.CACTUS_TILE_SLAB);
+
 
         cactusPool.stairs(ModBlocks.CACTUS_STAIRS);
         cactusPool.button(ModBlocks.CACTUS_BUTTON);

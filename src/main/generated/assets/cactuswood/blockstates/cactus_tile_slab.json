@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cactuswood:block/cactus_tile_slab"
+    },
+    "type=double": {
+      "model": "cactuswood:block/cactus_tile"
+    },
+    "type=top": {
+      "model": "cactuswood:block/cactus_tile_slab_top"
+    }
+  }
+}
