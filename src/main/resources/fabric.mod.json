@@ -3,7 +3,7 @@
 	"id": "cactuswood",
 	"version": "${version}",
 	"name": "Cactus Wood",
-	"description": "Adds cactus wood stuff",
+	"description": "Adds cactus wood and its variants",
 	"authors": [
 		"phofers"
 	],
