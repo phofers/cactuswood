@@ -20,6 +20,10 @@ public class ModFuels {
 
         FuelRegistry.INSTANCE.add(ModItems.CACTUS_RIBS,100);
 
+        FuelRegistry.INSTANCE.add(ModBlocks.CACTUS_TILE,300);
+        FuelRegistry.INSTANCE.add(ModBlocks.CACTUS_TILE_SLAB,150);
+        FuelRegistry.INSTANCE.add(ModBlocks.CACTUS_TILE_STAIRS,150);
+
         CactusWood.LOGGER.info("Registering ModFuels for: "+CactusWood.MOD_ID);
     }
 }

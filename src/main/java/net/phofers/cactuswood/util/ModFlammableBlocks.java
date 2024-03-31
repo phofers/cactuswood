@@ -13,6 +13,9 @@ public class ModFlammableBlocks {
         registry.add(ModBlocks.CACTUS_SLAB, 5, 20);
         registry.add(ModBlocks.CACTUS_FENCE, 5, 20);
         registry.add(ModBlocks.CACTUS_FENCE_GATE, 5, 20);
+        registry.add(ModBlocks.CACTUS_TILE, 5, 20);
+        registry.add(ModBlocks.CACTUS_TILE_STAIRS, 5, 20);
+        registry.add(ModBlocks.CACTUS_TILE_SLAB, 5, 20);
 
         CactusWood.LOGGER.info("Registering ModFlammableBlocks for: "+CactusWood.MOD_ID);
 
