@@ -1,10 +1,10 @@
-// 1.20.4	2024-03-31T02:51:08.9797305	Cactus Wood/Block Loot Tables
+// 1.20.4	2024-04-01T01:22:03.8696034	Cactus Wood/Block Loot Tables
 928c922b0fc25cbc9c78534a3082f0b95a0bdd8d data\cactuswood\loot_tables\blocks\cactus_tile_slab.json
 176425ee8106cb7cd4faacc54b2cca60028a01e7 data\cactuswood\loot_tables\blocks\cactus_planks.json
 4d60734913af38cddbf1c20ccc5f3be8ce24ec97 data\cactuswood\loot_tables\blocks\cactus_button.json
 aa2a6611da320afa13ce827f72c47de8f20589e7 data\cactuswood\loot_tables\blocks\cactus_fence_gate.json
-d8be4e3d065a6d0e7a538dc49d09e9569b1d71c8 data\cactuswood\loot_tables\blocks\cactus_stairs.json
 af91d7460156e47774927cc965ff2dfd3a9b5aad data\cactuswood\loot_tables\blocks\cactus_tile.json
+d8be4e3d065a6d0e7a538dc49d09e9569b1d71c8 data\cactuswood\loot_tables\blocks\cactus_stairs.json
 a4465f56ef7a10790b1903e8aab46cb84c34328b data\cactuswood\loot_tables\blocks\cactus_tile_stairs.json
 c52c509b2b7814395b952c8cb8b5d879a4ba0d66 data\cactuswood\loot_tables\blocks\cactus_trapdoor.json
 6be3fa40bcab4530c90429dc16a5cfc85b2bddf8 data\cactuswood\loot_tables\blocks\cactus_hanging_sign.json
@@ -12,4 +12,5 @@ a7be4c26eca463bb95d1065e47590d2199859053 data\cactuswood\loot_tables\blocks\cact
 a59d7114dbba0943674b8a2266a39e4276d927ae data\cactuswood\loot_tables\blocks\cactus_slab.json
 a554e6ca0b8caf90b3e3d24fa9ad97c1d4b2f836 data\cactuswood\loot_tables\blocks\cactus_door.json
 dec17938ee34b7c1d5a8a21d12e596f4ba242a53 data\cactuswood\loot_tables\blocks\cactus_standing_sign.json
+2af6f278f93c2942cf23cfdcc3de00c23a9489b1 data\cactuswood\loot_tables\blocks\smooth_cactus.json
 e8361b01a421c78ff665cc088c6b4e8feb3a8f79 data\cactuswood\loot_tables\blocks\cactus_fence.json

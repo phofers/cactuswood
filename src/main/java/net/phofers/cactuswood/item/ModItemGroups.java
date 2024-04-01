@@ -42,6 +42,7 @@ public class ModItemGroups {
 
                         // NEW ITEM GROUP, very important, don't you dare remove
                         entries.add(ModBlocks.CACTUS_PLANKS);
+                        // entries.add(ModBlocks.SMOOTH_CACTUS);
                         entries.add(ModBlocks.CACTUS_TILE);
                         entries.add(ModBlocks.CACTUS_STAIRS);
                         entries.add(ModBlocks.CACTUS_TILE_STAIRS);
@@ -58,6 +59,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CACTUS_BOAT);
                         entries.add(ModItems.CACTUS_CHEST_BOAT);
                         entries.add(ModItems.CACTUS_RIBS);
+
 
 
                     }).build());

@@ -21,6 +21,8 @@
 
   "block.cactuswood.cactus_tile": "ǝlᴉꞱ snʇɔɐƆ",
   "block.cactuswood.cactus_tile_slab": "qɐlS ǝlᴉꞱ snʇɔɐƆ",
-  "block.cactuswood.cactus_tile_stairs": "sɹᴉɐʇS ǝlᴉꞱ snʇɔɐƆ"
+  "block.cactuswood.cactus_tile_stairs": "sɹᴉɐʇS ǝlᴉꞱ snʇɔɐƆ",
+
+  "block.cactuswood.smooth_cactus": "snʇɔɐƆ ɥʇooɯS"
 
 }

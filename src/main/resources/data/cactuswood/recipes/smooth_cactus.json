@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cactuswood:cactus_planks"
+    },
+    {
+      "item": "cactuswood:cactus_ribs"
+    }
+  ],
+  "result": {
+    "item": "cactuswood:smooth_cactus",
+    "count": 2
+  }
+}

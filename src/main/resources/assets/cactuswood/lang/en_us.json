@@ -21,6 +21,8 @@
 
   "block.cactuswood.cactus_tile": "Cactus Tile",
   "block.cactuswood.cactus_tile_slab": "Cactus Tile Slab",
-  "block.cactuswood.cactus_tile_stairs": "Cactus Tile Stairs"
+  "block.cactuswood.cactus_tile_stairs": "Cactus Tile Stairs",
+
+  "block.cactuswood.smooth_cactus": "Smooth Cactus"
 
 }

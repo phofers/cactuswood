@@ -80,7 +80,8 @@ public class    ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.CACTUS_TILE)
                 .add(ModBlocks.CACTUS_TILE_SLAB)
-                .add(ModBlocks.CACTUS_TILE_STAIRS);
+                .add(ModBlocks.CACTUS_TILE_STAIRS)
+                .add(ModBlocks.SMOOTH_CACTUS);
 
 
     }

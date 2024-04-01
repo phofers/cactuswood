@@ -62,6 +62,9 @@ public class ModBlocks {
     public static final Block CACTUS_TILE_SLAB = registerBlock("cactus_tile_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN).sounds(BlockSoundGroup.NETHER_WOOD)));
 
+    public static final Block SMOOTH_CACTUS = registerBlock("smooth_cactus",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PALE_GREEN).sounds(BlockSoundGroup.NETHER_WOOD)));
+
     public static final BlockFamily CACTUS_FAMILY = BlockFamilies.register(ModBlocks.CACTUS_PLANKS)
             .sign(ModBlocks.STANDING_CACTUS_SIGN, ModBlocks.WALL_CACTUS_SIGN)
             .group("wooden").unlockCriterionName("has_planks").build();
