@@ -31,7 +31,7 @@ public class ModModelProvider extends FabricModelProvider {
         cactusPool.fenceGate(ModBlocks.CACTUS_FENCE_GATE);
         cactusPool.fence(ModBlocks.CACTUS_FENCE);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_CACTUS);
+        // For a normal block, blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK);
 
         blockStateModelGenerator.registerDoor(ModBlocks.CACTUS_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.CACTUS_TRAPDOOR);
