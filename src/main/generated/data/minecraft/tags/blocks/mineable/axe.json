@@ -3,7 +3,6 @@
   "values": [
     "cactuswood:cactus_tile",
     "cactuswood:cactus_tile_slab",
-    "cactuswood:cactus_tile_stairs",
-    "cactuswood:smooth_cactus"
+    "cactuswood:cactus_tile_stairs"
   ]
 }
