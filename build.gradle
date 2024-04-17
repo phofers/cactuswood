@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.5-SNAPSHOT'
+	id 'fabric-loom' version '1.6-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -38,8 +38,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	dependencies {
-		modImplementation "com.terraformersmc.terraform-api:terraform-wood-api-v1:9.0.0-beta.2"
-		include "com.terraformersmc.terraform-api:terraform-wood-api-v1:9.0.0-beta.2"
+		modImplementation "com.terraformersmc.terraform-api:terraform-wood-api-v1:10.0.0-alpha.9"
+		include "com.terraformersmc.terraform-api:terraform-wood-api-v1:10.0.0-alpha.9"
 	}
 	
 	// Uncomment the following line to enable the deprecated Fabric API modules. 

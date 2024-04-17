@@ -1,7 +1,6 @@
 package net.phofers.cactuswood.item;
 
 import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -23,11 +22,11 @@ public class ModItems {
 
 
 
-    public static final Item CACTUS_RIBS = registerItem("cactus_ribs", new Item(new FabricItemSettings()));
+    public static final Item CACTUS_RIBS = registerItem("cactus_ribs", new Item(new Item.Settings()));
     public static final Item CACTUS_SIGN = registerItem("cactus_sign",
-            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_CACTUS_SIGN, ModBlocks.WALL_CACTUS_SIGN));
+            new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_CACTUS_SIGN, ModBlocks.WALL_CACTUS_SIGN));
     public static final Item HANGING_CACTUS_SIGN = registerItem("cactus_hanging_sign",
-                new HangingSignItem(ModBlocks.HANGING_CACTUS_SIGN, ModBlocks.WALL_HANGING_CACTUS_SIGN, new FabricItemSettings().maxCount(16)));
+                new HangingSignItem(ModBlocks.HANGING_CACTUS_SIGN, ModBlocks.WALL_HANGING_CACTUS_SIGN, new Item.Settings().maxCount(16)));
 
     public static final Item CACTUS_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.CACTUS_BOAT_ID, ModBoats.CACTUS_BOAT_KEY, false);
     public static final Item CACTUS_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.CACTUS_CHEST_BOAT_ID, ModBoats.CACTUS_BOAT_KEY, true);
