@@ -13,7 +13,7 @@
         }
     },
     "result": {
-        "item": "cactuswood:cactus_fence_gate",
+        "id": "cactuswood:cactus_fence_gate",
         "count": 1
     }
 }

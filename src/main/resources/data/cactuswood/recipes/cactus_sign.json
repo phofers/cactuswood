@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "cactuswood:cactus_sign",
+    "id": "cactuswood:cactus_sign",
     "count": 3
   }
 }

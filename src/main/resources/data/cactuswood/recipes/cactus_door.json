@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "cactuswood:cactus_door",
+    "id": "cactuswood:cactus_door",
     "count": 3
   }
 }

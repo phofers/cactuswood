@@ -9,7 +9,7 @@
     }
   },
   "result": {
-    "item": "cactuswood:cactus_tile_slab",
+    "id": "cactuswood:cactus_tile_slab",
     "count": 6
   }
 }

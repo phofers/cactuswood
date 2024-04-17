@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "cactuswood:cactus_tile",
+    "id": "cactuswood:cactus_tile",
     "count": 1
   }
 }
