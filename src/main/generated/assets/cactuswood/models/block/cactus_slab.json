@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "cactuswood:block/cactus_planks",
-    "side": "cactuswood:block/cactus_planks",
-    "top": "cactuswood:block/cactus_planks"
-  }
-}
